@@ -18,7 +18,7 @@ export default defineConfig({
   // GitHub Pages serves the site under /wikis/ — Starlight needs both
   // site (full URL) and base (repo path) so internal links resolve.
   site: 'https://cgiar-climate-data-hub.github.io',
-  base: '/wikis',
+  base: '/cdh-wikis',
 
   integrations: [
     starlight({

@@ -13,12 +13,12 @@ tableOfContents:
 ---
 
 :::caution[Draft — content stub]
-This page is currently a structural scaffold. Sources for citations are catalogued in [`playbook/cmip6-wiki/research_anchors.md`](https://github.com/CGIAR-Climate-Data-Hub/wikis/blob/main/playbook/cmip6-wiki/research_anchors.md) §A7.
+This page is currently a structural scaffold. Sources for citations are catalogued in [`playbook/cmip6-wiki/research_anchors.md`](https://github.com/CGIAR-Climate-Data-Hub/cdh-wikis/blob/main/playbook/cmip6-wiki/research_anchors.md) §A7.
 :::
 
 ## What this page covers
 
-A literature synthesis — per AR6 reference region — of how CMIP6 models perform over African climates. The page does not prescribe a specific ensemble; that's the [Atlas approach](/wikis/aaa-atlas/african-cmip6-ensembling/) page's job. Here we summarise *what the regional evaluation literature says* so the Atlas's specific choices land in context.
+A literature synthesis — per AR6 reference region — of how CMIP6 models perform over African climates. The page does not prescribe a specific ensemble; that's the [Atlas approach](/cdh-wikis/aaa-atlas/african-cmip6-ensembling/) page's job. Here we summarise *what the regional evaluation literature says* so the Atlas's specific choices land in context.
 
 ## The framing — no single best model
 
@@ -42,7 +42,7 @@ A literature synthesis — per AR6 reference region — of how CMIP6 models perf
 
 ## North-Eastern Africa / Horn (NEAF)
 
-*To be written. Park et al. 2023; Endris et al. 2019. Cross-reference [East African Paradox](/wikis/aaa-atlas/east-african-paradox/) prominently.*
+*To be written. Park et al. 2023; Endris et al. 2019. Cross-reference [East African Paradox](/cdh-wikis/aaa-atlas/east-african-paradox/) prominently.*
 
 ## South-Eastern Africa (SEAF)
 
@@ -62,7 +62,7 @@ A literature synthesis — per AR6 reference region — of how CMIP6 models perf
 
 ## How this maps to the Atlas's choices
 
-*To be written. Cross-link to [Atlas approach](/wikis/aaa-atlas/african-cmip6-ensembling/). The Atlas's regional sub-ensembles (AFR-WAF, AFR-CAF, etc.) are direct applications of this evidence base.*
+*To be written. Cross-link to [Atlas approach](/cdh-wikis/aaa-atlas/african-cmip6-ensembling/). The Atlas's regional sub-ensembles (AFR-WAF, AFR-CAF, etc.) are direct applications of this evidence base.*
 
 ## What the regional centres say
 

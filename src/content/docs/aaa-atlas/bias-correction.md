@@ -13,7 +13,7 @@ tableOfContents:
 ---
 
 :::caution[Draft — content stub]
-This page is currently a structural scaffold. Sources for citations are catalogued in [`playbook/cmip6-wiki/research_anchors.md`](https://github.com/CGIAR-Climate-Data-Hub/wikis/blob/main/playbook/cmip6-wiki/research_anchors.md) §A5.
+This page is currently a structural scaffold. Sources for citations are catalogued in [`playbook/cmip6-wiki/research_anchors.md`](https://github.com/CGIAR-Climate-Data-Hub/cdh-wikis/blob/main/playbook/cmip6-wiki/research_anchors.md) §A5.
 :::
 
 ## What this page covers
@@ -46,7 +46,7 @@ What bias correction means, the three methods you'll encounter in African adapta
 
 ## What the Atlas uses
 
-*To be written. NEX-GDDP-CMIP6 uses BCSD against the GMFD reference. ISIMIP3b / CHELSA-CMIP6 use ISIMIP3BASD against W5E5. Cross-link to [Dataset landscape](/wikis/aaa-atlas/dataset-landscape/).*
+*To be written. NEX-GDDP-CMIP6 uses BCSD against the GMFD reference. ISIMIP3b / CHELSA-CMIP6 use ISIMIP3BASD against W5E5. Cross-link to [Dataset landscape](/cdh-wikis/aaa-atlas/dataset-landscape/).*
 
 ## Practical guidance
 

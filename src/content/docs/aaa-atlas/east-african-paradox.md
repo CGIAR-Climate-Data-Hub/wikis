@@ -13,7 +13,7 @@ tableOfContents:
 ---
 
 :::caution[Draft — content stub]
-This page is currently a structural scaffold. Content will be extracted and expanded from the existing [African CMIP6 Ensembling](/wikis/aaa-atlas/african-cmip6-ensembling/) page §"East African Paradox" plus deeper research per [`playbook/cmip6-wiki/research_anchors.md`](https://github.com/CGIAR-Climate-Data-Hub/wikis/blob/main/playbook/cmip6-wiki/research_anchors.md) §A7 (regional evaluation).
+This page is currently a structural scaffold. Content will be extracted and expanded from the existing [African CMIP6 Ensembling](/cdh-wikis/aaa-atlas/african-cmip6-ensembling/) page §"East African Paradox" plus deeper research per [`playbook/cmip6-wiki/research_anchors.md`](https://github.com/CGIAR-Climate-Data-Hub/cdh-wikis/blob/main/playbook/cmip6-wiki/research_anchors.md) §A7 (regional evaluation).
 :::
 
 ## What this page covers
@@ -54,7 +54,7 @@ The most important honest caveat in this wiki. A persistent CMIP6 bias affects f
 
 ## What CMIP7 might bring
 
-*To be written. The mechanism (Pacific SST biases) is a major target of CMIP7 development. Whether CMIP7 resolves the paradox will be one of the headline tests of the new model generation. Cross-link to [CMIP7 + CORDEX-Africa](/wikis/aaa-atlas/future-projections/).*
+*To be written. The mechanism (Pacific SST biases) is a major target of CMIP7 development. Whether CMIP7 resolves the paradox will be one of the headline tests of the new model generation. Cross-link to [CMIP7 + CORDEX-Africa](/cdh-wikis/aaa-atlas/future-projections/).*
 
 ## Further reading
 

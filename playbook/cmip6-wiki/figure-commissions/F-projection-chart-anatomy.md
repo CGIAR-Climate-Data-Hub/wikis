@@ -51,7 +51,7 @@ All other STYLE.md rules apply: callout typography, sentence case, font sizes, a
 
 ## Caption (already written in the page source)
 
-> **Figure 1.** Anatomy of a projection chart. Adapted from [IPCC AR6 WGI SPM Figure 8, panel (a)](https://www.ipcc.ch/report/ar6/wg1/figures/summary-for-policymakers/figure-spm-8/) (CC-BY 4.0). Each scenario shows the multi-model ensemble mean (central line) with the *very likely* inter-model range as shading. Temperature anomalies are relative to **1850–1900** (the IPCC pre-industrial baseline) — see [Baselines and reference periods](/wikis/aaa-atlas/baselines/) for how this baseline relates to the 1991–2020 WMO baseline used elsewhere on the wiki. *Placeholder — to be commissioned.*
+> **Figure 1.** Anatomy of a projection chart. Adapted from [IPCC AR6 WGI SPM Figure 8, panel (a)](https://www.ipcc.ch/report/ar6/wg1/figures/summary-for-policymakers/figure-spm-8/) (CC-BY 4.0). Each scenario shows the multi-model ensemble mean (central line) with the *very likely* inter-model range as shading. Temperature anomalies are relative to **1850–1900** (the IPCC pre-industrial baseline) — see [Baselines and reference periods](/cdh-wikis/aaa-atlas/baselines/) for how this baseline relates to the 1991–2020 WMO baseline used elsewhere on the wiki. *Placeholder — to be commissioned.*
 
 ## Alt text (already written in the page source)
 

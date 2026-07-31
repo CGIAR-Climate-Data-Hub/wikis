@@ -5,7 +5,7 @@ import starlight from '@astrojs/starlight';
 // CGIAR Climate Data Hub — wikis site.
 //
 // Deployed to GitHub Pages at:
-//   https://cgiar-climate-data-hub.github.io/wikis/
+//   https://cgiar-climate-data-hub.github.io/cdh-wikis/
 //
 // To add a new wiki:
 //   1. Drop a markdown / mdx file under src/content/docs/<area>/<slug>.md
@@ -15,7 +15,7 @@ import starlight from '@astrojs/starlight';
 // See ./playbook/ADDING_A_NEW_WIKI.md for the full guide.
 
 export default defineConfig({
-  // GitHub Pages serves the site under /wikis/ — Starlight needs both
+  // GitHub Pages serves the site under /cdh-wikis/ — Starlight needs both
   // site (full URL) and base (repo path) so internal links resolve.
   site: 'https://cgiar-climate-data-hub.github.io',
   base: '/cdh-wikis',
@@ -45,7 +45,7 @@ export default defineConfig({
       // Edit-on-GitHub link in each page footer.
       editLink: {
         baseUrl:
-          'https://github.com/CGIAR-Climate-Data-Hub/wikis/edit/main/',
+          'https://github.com/CGIAR-Climate-Data-Hub/cdh-wikis/edit/main/',
       },
 
       // Last-updated timestamps in the footer use the git history.

@@ -36,7 +36,7 @@ wikis/
 ## Adding a new wiki
 
 1. **Pick or create an area.** A wiki belongs to an "area" (typically a CGIAR programme or institution). Existing areas live under `src/content/docs/<area>/`. If the new wiki doesn't fit any of them, create a new folder + an `index.md` for that area.
-2. **Create the wiki file** at `src/content/docs/<area>/<slug>.md`. The slug becomes part of the URL: `https://cgiar-climate-data-hub.github.io/wikis/<area>/<slug>/`.
+2. **Create the wiki file** at `src/content/docs/<area>/<slug>.md`. The slug becomes part of the URL: `https://cgiar-climate-data-hub.github.io/cdh-wikis/<area>/<slug>/`.
 3. **Frontmatter — use this template**:
    ```yaml
    ---
@@ -107,14 +107,14 @@ Astro builds the site to `dist/` which the GitHub Action picks up and pushes to 
 
 ## Deployment
 
-GitHub Action at `.github/workflows/deploy.yml`. Triggers on push to `main`. Two jobs: `build` uses `withastro/action@v3`; `deploy` uses `actions/deploy-pages@v4`. Production URL: `https://cgiar-climate-data-hub.github.io/wikis/`.
+GitHub Action at `.github/workflows/deploy.yml`. Triggers on push to `main`. Two jobs: `build` uses `withastro/action@v3`; `deploy` uses `actions/deploy-pages@v4`. Production URL: `https://cgiar-climate-data-hub.github.io/cdh-wikis/`.
 
 If deployment is failing, check the Actions tab in the GitHub UI. Most likely cause is a typo in `astro.config.mjs` (e.g. a missing sidebar slug) or a broken link in the markdown that fails Starlight's link-check.
 
 ## Things NOT to do
 
 - **Don't put `# Title` at the top of a markdown file.** Starlight injects it from frontmatter; double-titles look broken.
-- **Don't reference figures via absolute URL** (`/wikis/figures/foo.png`) when they can be co-located. Co-location gives Astro the chance to optimise them.
+- **Don't reference figures via absolute URL** (`/cdh-wikis/figures/foo.png`) when they can be co-located. Co-location gives Astro the chance to optimise them.
 - **Don't add `node_modules/` or `dist/` to commits.** Both are gitignored — but if you reset the gitignore by accident, watch for these.
 - **Don't promote `0.1-draft` versions to canonical.** Bump the `version` frontmatter field on each significant content change. Old versions are retained for citation stability via git history.
 - **Don't delete or move existing wikis without asking.** Partner teams may have linked to specific URLs in proposals. Renames break those links.

@@ -28,7 +28,7 @@ If you have written-out content already and just need a place to host it:
 
 1. Open an issue on the [wikis repo](https://github.com/CGIAR-Climate-Data-Hub/wikis) describing the wiki — title, audience, length, source of truth (where will the canonical content live?), and any figures / data references.
 2. We discuss style and slot — which "area" of the site it belongs in, what slug it takes.
-3. Open a pull request adding the content under `src/content/docs/<area>/<slug>.md`, with Astro Starlight frontmatter (see existing wikis for examples) and the file structure described in [`playbook/ADDING_A_NEW_WIKI.md`](https://github.com/CGIAR-Climate-Data-Hub/wikis/blob/main/playbook/ADDING_A_NEW_WIKI.md).
+3. Open a pull request adding the content under `src/content/docs/<area>/<slug>.md`, with Astro Starlight frontmatter (see existing wikis for examples) and the file structure described in [`playbook/ADDING_A_NEW_WIKI.md`](https://github.com/CGIAR-Climate-Data-Hub/cdh-wikis/blob/main/playbook/ADDING_A_NEW_WIKI.md).
 4. Update `astro.config.mjs` `sidebar` to surface the new page.
 5. Reviewers approve; the GitHub Action builds and deploys.
 

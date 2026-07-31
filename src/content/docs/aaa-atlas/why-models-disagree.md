@@ -13,7 +13,7 @@ tableOfContents:
 ---
 
 :::caution[Draft — content stub]
-This page is currently a structural scaffold. Sources for citations are catalogued in [`playbook/cmip6-wiki/research_anchors.md`](https://github.com/CGIAR-Climate-Data-Hub/wikis/blob/main/playbook/cmip6-wiki/research_anchors.md) §A3 + §A6.
+This page is currently a structural scaffold. Sources for citations are catalogued in [`playbook/cmip6-wiki/research_anchors.md`](https://github.com/CGIAR-Climate-Data-Hub/cdh-wikis/blob/main/playbook/cmip6-wiki/research_anchors.md) §A3 + §A6.
 :::
 
 ## What this page covers

@@ -16,20 +16,20 @@ tableOfContents:
 ---
 
 :::caution[Draft — content stub]
-This page is a scaffold for the CGIAR-led CMIP7 downscaling proposition. Lead author: **Carlos Navarros**. Supporting context lives in [`playbook/cmip6-wiki/research_anchors_cmip7.md`](https://github.com/CGIAR-Climate-Data-Hub/wikis/blob/main/playbook/cmip6-wiki/research_anchors_cmip7.md) (especially §10 ecosystem map and §11 funding-risk assessment) and the [CMIP7 leadership brief](https://github.com/CGIAR-Climate-Data-Hub/wikis/blob/main/playbook/cmip6-wiki/cmip7-leadership-brief.md).
+This page is a scaffold for the CGIAR-led CMIP7 downscaling proposition. Lead author: **Carlos Navarros**. Supporting context lives in [`playbook/cmip6-wiki/research_anchors_cmip7.md`](https://github.com/CGIAR-Climate-Data-Hub/cdh-wikis/blob/main/playbook/cmip6-wiki/research_anchors_cmip7.md) (especially §10 ecosystem map and §11 funding-risk assessment) and the [CMIP7 leadership brief](https://github.com/CGIAR-Climate-Data-Hub/cdh-wikis/blob/main/playbook/cmip6-wiki/cmip7-leadership-brief.md).
 :::
 
 ## What this page covers
 
-The methods, compute, and data-sharing infrastructure needed to produce a **CGIAR Climate Action African-tuned CMIP7 downscaled and bias-corrected dataset** — the data that will eventually replace NEX-GDDP-CMIP6 as the operational backbone of the [AAA Adaptation Atlas](/wikis/aaa-atlas/african-cmip6-ensembling/) and the [Build a Climate Rationale notebook](https://adaptationatlas.cgiar.org/).
+The methods, compute, and data-sharing infrastructure needed to produce a **CGIAR Climate Action African-tuned CMIP7 downscaled and bias-corrected dataset** — the data that will eventually replace NEX-GDDP-CMIP6 as the operational backbone of the [AAA Adaptation Atlas](/cdh-wikis/aaa-atlas/african-cmip6-ensembling/) and the [Build a Climate Rationale notebook](https://adaptationatlas.cgiar.org/).
 
-This is the upstream half of CGIAR Climate Action's CMIP7 production effort. The downstream half — the [hazards pipeline](/wikis/aaa-atlas/cmip7-hazards-pipeline/) that turns these downscaled inputs into adaptation-decision indicators — is the companion page.
+This is the upstream half of CGIAR Climate Action's CMIP7 production effort. The downstream half — the [hazards pipeline](/cdh-wikis/aaa-atlas/cmip7-hazards-pipeline/) that turns these downscaled inputs into adaptation-decision indicators — is the companion page.
 
-For the partner-facing transition overview (what CMIP7 is, when it lands, what proposal authors should do today), see [What's next — CMIP7 and CORDEX-Africa](/wikis/aaa-atlas/future-projections/).
+For the partner-facing transition overview (what CMIP7 is, when it lands, what proposal authors should do today), see [What's next — CMIP7 and CORDEX-Africa](/cdh-wikis/aaa-atlas/future-projections/).
 
 ## Why CGIAR is in this business
 
-No CMIP7-derived downscaled product for African adaptation exists yet from any team — NEX-GDDP-CMIP7 has no public release timeline, no African regional centre (ICPAC, AGRHYMET, ACMAD, CSAG) has announced a CMIP7-tuned product of its own, and the AAA Adaptation Atlas's single largest dependency (NEX-GDDP-CMIP6) is at uncertain funding continuity through the FY2026–FY2027 US budget cycle ([leadership brief](https://github.com/CGIAR-Climate-Data-Hub/wikis/blob/main/playbook/cmip6-wiki/cmip7-leadership-brief.md)).
+No CMIP7-derived downscaled product for African adaptation exists yet from any team — NEX-GDDP-CMIP7 has no public release timeline, no African regional centre (ICPAC, AGRHYMET, ACMAD, CSAG) has announced a CMIP7-tuned product of its own, and the AAA Adaptation Atlas's single largest dependency (NEX-GDDP-CMIP6) is at uncertain funding continuity through the FY2026–FY2027 US budget cycle ([leadership brief](https://github.com/CGIAR-Climate-Data-Hub/cdh-wikis/blob/main/playbook/cmip6-wiki/cmip7-leadership-brief.md)).
 
 A CGIAR-led African-tuned CMIP7 downscaling pipeline is **both an opportunity and a hedge** — opportunity to claim production-space for African adaptation, hedge against external dependency failure. This page is where that pipeline is documented.
 
@@ -42,7 +42,7 @@ A CGIAR-led African-tuned CMIP7 downscaling pipeline is **both an opportunity an
 - **Spatial resolution target** — 0.25° (NEX-GDDP parity) vs higher (CHELSA-class) trade-off.
 - **Temporal coverage** — full CMIP7 AFT horizon (1850–2100 historical+scenario).
 - **Scenarios** — the seven CMIP7 scenarios (H, HL, M, ML, L, LN, VL) per [van Vuuren et al. 2026](https://gmd.copernicus.org/articles/19/2627/2026/).
-- **Model count target** — the AFR-13 / AFR-8 / FULL-18 sub-ensemble logic from [African CMIP6 Ensembling](/wikis/aaa-atlas/african-cmip6-ensembling/), re-derived against CMIP7 model identities.
+- **Model count target** — the AFR-13 / AFR-8 / FULL-18 sub-ensemble logic from [African CMIP6 Ensembling](/cdh-wikis/aaa-atlas/african-cmip6-ensembling/), re-derived against CMIP7 model identities.
 
 ## Bias-correction methodology
 
@@ -69,7 +69,7 @@ A CGIAR-led African-tuned CMIP7 downscaling pipeline is **both an opportunity an
 
 ## Compute infrastructure
 
-*To be drafted by Carlos Navarros. The infrastructure decision must support both this downscaling pipeline AND the downstream [hazards pipeline](/wikis/aaa-atlas/cmip7-hazards-pipeline/) — shared compute is one of the design constraints.*
+*To be drafted by Carlos Navarros. The infrastructure decision must support both this downscaling pipeline AND the downstream [hazards pipeline](/cdh-wikis/aaa-atlas/cmip7-hazards-pipeline/) — shared compute is one of the design constraints.*
 
 *Suggested points to cover:*
 
@@ -102,7 +102,7 @@ A CGIAR-led African-tuned CMIP7 downscaling pipeline is **both an opportunity an
 3. **Downscale** — apply the chosen spatial method to the target grid.
 4. **Validate** — compare downscaled output against held-out observational sets; flag anomalies.
 5. **Publish** — emit netCDF/Zarr to storage, mint catalogue entry, update STAC.
-6. **Hand off** — make outputs available to the [hazards pipeline](/wikis/aaa-atlas/cmip7-hazards-pipeline/).
+6. **Hand off** — make outputs available to the [hazards pipeline](/cdh-wikis/aaa-atlas/cmip7-hazards-pipeline/).
 
 ## Timeline and dependencies
 
@@ -137,9 +137,9 @@ A CGIAR-led African-tuned CMIP7 downscaling pipeline is **both an opportunity an
 
 ## Further reading
 
-- [What's next — CMIP7 and CORDEX-Africa](/wikis/aaa-atlas/future-projections/) — the partner-facing transition overview.
-- [CMIP7 hazards pipeline](/wikis/aaa-atlas/cmip7-hazards-pipeline/) — the companion downstream page.
-- [African CMIP6 Ensembling](/wikis/aaa-atlas/african-cmip6-ensembling/) — the existing CMIP6 methodology this pipeline will replace.
-- [Dataset landscape](/wikis/aaa-atlas/dataset-landscape/) *(draft)* — the wider CMIP-era dataset catalogue.
-- [research_anchors_cmip7.md](https://github.com/CGIAR-Climate-Data-Hub/wikis/blob/main/playbook/cmip6-wiki/research_anchors_cmip7.md) §10 — the full ecosystem map of parallel downscaling teams.
-- [CMIP7 leadership brief](https://github.com/CGIAR-Climate-Data-Hub/wikis/blob/main/playbook/cmip6-wiki/cmip7-leadership-brief.md) — the case for CGIAR claiming production-space.
+- [What's next — CMIP7 and CORDEX-Africa](/cdh-wikis/aaa-atlas/future-projections/) — the partner-facing transition overview.
+- [CMIP7 hazards pipeline](/cdh-wikis/aaa-atlas/cmip7-hazards-pipeline/) — the companion downstream page.
+- [African CMIP6 Ensembling](/cdh-wikis/aaa-atlas/african-cmip6-ensembling/) — the existing CMIP6 methodology this pipeline will replace.
+- [Dataset landscape](/cdh-wikis/aaa-atlas/dataset-landscape/) *(draft)* — the wider CMIP-era dataset catalogue.
+- [research_anchors_cmip7.md](https://github.com/CGIAR-Climate-Data-Hub/cdh-wikis/blob/main/playbook/cmip6-wiki/research_anchors_cmip7.md) §10 — the full ecosystem map of parallel downscaling teams.
+- [CMIP7 leadership brief](https://github.com/CGIAR-Climate-Data-Hub/cdh-wikis/blob/main/playbook/cmip6-wiki/cmip7-leadership-brief.md) — the case for CGIAR claiming production-space.

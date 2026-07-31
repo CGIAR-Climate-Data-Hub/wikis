@@ -16,7 +16,7 @@ Each wiki is plain Markdown with [Astro Starlight](https://starlight.astro.build
 
 ```bash
 npm install                    # install Astro, Starlight, and sharp (image pipeline)
-npm run dev                    # local dev server at http://localhost:4321/wikis/
+npm run dev                    # local dev server at http://localhost:4321/cdh-wikis/
 npm run build                  # produce a static build in dist/
 npm run preview                # preview the static build locally
 ```

@@ -59,16 +59,16 @@ For projecting climate change relative to that baseline.
 | Impact-sector modelling (crops / water / health / nutrition) | **ISIMIP3b** (5 models, ISIMIP3BASD bias adjustment) | NEX-GDDP-CMIP6 if you need more models | The ISIMIP3a "historical-only" tier for *projection* work |
 | Very-fine-resolution ecology / agroecology / species distribution | **CHELSA-CMIP6** (1 km statistical downscaling) | WorldClim Future as a cross-check | NEX-GDDP-CMIP6 at 0.25° for sub-watershed analysis — resolution too coarse |
 | Extremes work that must be physically self-consistent | **CORDEX-CORE** dynamical downscaling (~22 km) | NEX-GDDP-CMIP6 with explicit caveats about statistical-downscaling assumptions | Statistical downscaling for compound extremes that require multivariate consistency |
-| Forward-looking work (post-2027) | Watch for **CMIP7 Fast Track** and **CORDEX-Africa CMIP6** — see [CMIP7 + CORDEX](/wikis/aaa-atlas/future-projections/) | Continue CMIP6 in parallel during the transition | Switch all reporting to CMIP7 the day it lands — partners will be citing CMIP6 work for years |
+| Forward-looking work (post-2027) | Watch for **CMIP7 Fast Track** and **CORDEX-Africa CMIP6** — see [CMIP7 + CORDEX](/cdh-wikis/aaa-atlas/future-projections/) | Continue CMIP6 in parallel during the transition | Switch all reporting to CMIP7 the day it lands — partners will be citing CMIP6 work for years |
 
-**Projection baseline**: **1995–2014** (the CMIP6 standard reference period). This is the default the upstream products are anchored to. The asymmetry with the WMO 1991–2020 observational baseline is intentional — see [Baselines and reference periods](/wikis/aaa-atlas/baselines/).
+**Projection baseline**: **1995–2014** (the CMIP6 standard reference period). This is the default the upstream products are anchored to. The asymmetry with the WMO 1991–2020 observational baseline is intentional — see [Baselines and reference periods](/cdh-wikis/aaa-atlas/baselines/).
 
 ### Ensembles
 
 For deciding which subset of climate models to use.
 
-- **Continental work across Africa**: use **AFR-13** (continental sub-ensemble, hot-models excluded) per the [AAA Adaptation Atlas methodology](/wikis/aaa-atlas/african-cmip6-ensembling/), grounded in [Samuel et al. 2025](https://doi.org/10.1002/joc.8672).
-- **Single-region work**: use the **regional sub-ensemble** matching your region (AFR-WAF for West Africa, AFR-HOA for the Greater Horn, AFR-SAF for Southern Africa, etc.). See [Regional evaluation](/wikis/aaa-atlas/regional-evaluation/).
+- **Continental work across Africa**: use **AFR-13** (continental sub-ensemble, hot-models excluded) per the [AAA Adaptation Atlas methodology](/cdh-wikis/aaa-atlas/african-cmip6-ensembling/), grounded in [Samuel et al. 2025](https://doi.org/10.1002/joc.8672).
+- **Single-region work**: use the **regional sub-ensemble** matching your region (AFR-WAF for West Africa, AFR-HOA for the Greater Horn, AFR-SAF for Southern Africa, etc.). See [Regional evaluation](/cdh-wikis/aaa-atlas/regional-evaluation/).
 - **Stress-testing / worst-case framing only**: use **FULL-18** (all 18 NEX-GDDP-CMIP6 models including hot tail) — and explicitly state that you're including hot models for stress-testing per [Hausfather et al. 2022](https://doi.org/10.1038/d41586-022-01192-2). Don't use FULL-18 silently for central estimates.
 
 Whichever ensemble you choose, **report the central estimate and the inter-model spread together**. A single number without a spread is half the story — the spread *is* the uncertainty, and dropping it is the most common way CGIAR climate communication misleads partners.
@@ -93,7 +93,7 @@ This list is short on purpose. These are the patterns that produce the cross-cen
 - **Don't use raw CMIP6 (ESGF)** for impact work. Bias correction is needed for any application that uses absolute values rather than anomalies.
 - **Don't report future projections without naming the baseline.** "+2 °C by 2050" is meaningless without "vs 1995–2014" (or whatever your reference is).
 - **Don't silently mix baselines** between a recent-changes figure and a future-projections figure in the same document. The asymmetry between 1991–2020 (observed) and 1995–2014 (projected) is intentional — name it.
-- **Don't ignore the East African paradox.** If you're projecting Greater Horn of Africa MAM rainfall, frame your adaptation logic around the *observed drying*, not the modelled wetting. See [East African Paradox](/wikis/aaa-atlas/east-african-paradox/).
+- **Don't ignore the East African paradox.** If you're projecting Greater Horn of Africa MAM rainfall, frame your adaptation logic around the *observed drying*, not the modelled wetting. See [East African Paradox](/cdh-wikis/aaa-atlas/east-african-paradox/).
 - **Don't drop the climate-rationale narrative**: observed context → observed change → projected change → adaptation logic. A projection number on its own — without the observed history that grounds it — is hard for partners to validate.
 
 ## The harmonisation arc — where this is going
@@ -125,8 +125,8 @@ Centre-level climate-data contacts will be listed here as the network solidifies
 
 ## Further reading
 
-- [African CMIP6 Ensembling — the AAA Adaptation Atlas approach](/wikis/aaa-atlas/african-cmip6-ensembling/) — the methodology these recommendations apply.
-- [Baselines and reference periods](/wikis/aaa-atlas/baselines/) — the baseline asymmetry between observed and projected products explained.
+- [African CMIP6 Ensembling — the AAA Adaptation Atlas approach](/cdh-wikis/aaa-atlas/african-cmip6-ensembling/) — the methodology these recommendations apply.
+- [Baselines and reference periods](/cdh-wikis/aaa-atlas/baselines/) — the baseline asymmetry between observed and projected products explained.
 - [Samuel et al. 2025 — NEX-GDDP-CMIP6 evaluation for sub-Saharan Africa](https://doi.org/10.1002/joc.8672) — the evaluation paper behind the AFR-13 sub-ensemble.
 - [Hausfather et al. 2022 — Recognize the 'hot model' problem](https://doi.org/10.1038/d41586-022-01192-2) — the basis for hot-model exclusion in the ensemble defaults.
 - [WMO State of the Climate in Africa 2024](https://wmo.int/publication-series/state-of-climate-africa-2024) — applied use of the 1991–2020 observational baseline.

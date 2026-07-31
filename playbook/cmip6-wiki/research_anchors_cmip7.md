@@ -229,7 +229,7 @@ REF explicitly frames results as characterising "model performance and highlight
 
 No Africa-specific module or regional skill-score product yet. The Model Benchmarking Task Team includes **Demiso Daba (Arba Minch University, Ethiopia)**, and Jared Lewis (Climate Resource) explicitly calls out "colleagues in the Global South" as beneficiaries of pre-computed diagnostics ([eScience Center, 2026](https://www.esciencecenter.nl/news/scientists-launch-open-access-framework-to-rapidly-evaluate-next-generation-climate-models-ahead-of-ipcc-ar7/)).
 
-REF surfaces standard global maps and AR6-reference-region summaries via ESMValTool/PMP. Bespoke African regional evaluation will still need to happen downstream of REF outputs — REF is the *raw material* for [Regional evaluation](/wikis/aaa-atlas/regional-evaluation/) work, not a replacement for it.
+REF surfaces standard global maps and AR6-reference-region summaries via ESMValTool/PMP. Bespoke African regional evaluation will still need to happen downstream of REF outputs — REF is the *raw material* for [Regional evaluation](/cdh-wikis/aaa-atlas/regional-evaluation/) work, not a replacement for it.
 
 ---
 

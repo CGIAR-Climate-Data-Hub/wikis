@@ -13,7 +13,7 @@ tableOfContents:
 ---
 
 :::caution[Draft — content stub]
-This page is currently a structural scaffold. The full dataset inventory backing this page lives in [`playbook/cmip6-wiki/datasets_inventory.md`](https://github.com/CGIAR-Climate-Data-Hub/wikis/blob/main/playbook/cmip6-wiki/datasets_inventory.md).
+This page is currently a structural scaffold. The full dataset inventory backing this page lives in [`playbook/cmip6-wiki/datasets_inventory.md`](https://github.com/CGIAR-Climate-Data-Hub/cdh-wikis/blob/main/playbook/cmip6-wiki/datasets_inventory.md).
 :::
 
 ## What this page covers
@@ -82,4 +82,4 @@ The major climate-projection and climate-baseline datasets you'll encounter doin
 
 ## Why the Atlas chose NEX-GDDP-CMIP6
 
-*To be written. Brief justification cross-linking to [Atlas approach](/wikis/aaa-atlas/african-cmip6-ensembling/).*
+*To be written. Brief justification cross-linking to [Atlas approach](/cdh-wikis/aaa-atlas/african-cmip6-ensembling/).*

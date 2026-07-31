@@ -13,7 +13,7 @@ tableOfContents:
 ---
 
 :::caution[Draft — content stub]
-This page is currently a structural scaffold. Sources for citations are catalogued in [`playbook/cmip6-wiki/research_anchors.md`](https://github.com/CGIAR-Climate-Data-Hub/wikis/blob/main/playbook/cmip6-wiki/research_anchors.md) §A4.
+This page is currently a structural scaffold. Sources for citations are catalogued in [`playbook/cmip6-wiki/research_anchors.md`](https://github.com/CGIAR-Climate-Data-Hub/cdh-wikis/blob/main/playbook/cmip6-wiki/research_anchors.md) §A4.
 :::
 
 ## What this page covers
@@ -42,7 +42,7 @@ Why raw climate-model output isn't directly useful at country / admin-1 scale; t
 
 ## What the Atlas uses, and why
 
-*To be written. NEX-GDDP-CMIP6: 0.25° statistical downscaling. Cross-link to [Dataset landscape](/wikis/aaa-atlas/dataset-landscape/) for the full comparison.*
+*To be written. NEX-GDDP-CMIP6: 0.25° statistical downscaling. Cross-link to [Dataset landscape](/cdh-wikis/aaa-atlas/dataset-landscape/) for the full comparison.*
 
 ## Further reading
 

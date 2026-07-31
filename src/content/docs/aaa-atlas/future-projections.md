@@ -27,7 +27,7 @@ By the end of this page you'll know:
 - When CMIP7-derived African projections will be usable in practice
 - What proposal authors and CGIAR partners should do in the meantime
 
-For the operational guidance ("which dataset, which baseline, which scenario *today*"), see [Recommendations for CGIAR](/wikis/aaa-atlas/cgiar-recommendations/). For the existing CMIP6 methodology this transition will replace, see [African CMIP6 Ensembling](/wikis/aaa-atlas/african-cmip6-ensembling/).
+For the operational guidance ("which dataset, which baseline, which scenario *today*"), see [Recommendations for CGIAR](/cdh-wikis/aaa-atlas/cgiar-recommendations/). For the existing CMIP6 methodology this transition will replace, see [African CMIP6 Ensembling](/cdh-wikis/aaa-atlas/african-cmip6-ensembling/).
 
 ## What's actually changing from CMIP6
 
@@ -105,7 +105,7 @@ Each downscaling team uses a different model subset (NEX-GDDP downscaled 35 CMIP
 
 ## The East African Paradox in CMIP7
 
-The persistent CMIP-era disagreement between observed long-rains drying and modelled wetting over the Greater Horn of Africa ([East African Paradox](/wikis/aaa-atlas/east-african-paradox/)) is on the CMIP7 community's radar. The leading hypothesis is that the paradox is rooted in Pacific sea-surface-temperature biases that propagate through the Walker circulation to East African rainfall, and CMIP7 development has prioritised improving those biases ([Park et al. 2023](https://doi.org/10.1007/s00382-022-06622-5); [Schwarzwald et al. 2024](https://journals.ametsoc.org/view/journals/clim/37/24/JCLI-D-24-0225.1.xml)).
+The persistent CMIP-era disagreement between observed long-rains drying and modelled wetting over the Greater Horn of Africa ([East African Paradox](/cdh-wikis/aaa-atlas/east-african-paradox/)) is on the CMIP7 community's radar. The leading hypothesis is that the paradox is rooted in Pacific sea-surface-temperature biases that propagate through the Walker circulation to East African rainfall, and CMIP7 development has prioritised improving those biases ([Park et al. 2023](https://doi.org/10.1007/s00382-022-06622-5); [Schwarzwald et al. 2024](https://journals.ametsoc.org/view/journals/clim/37/24/JCLI-D-24-0225.1.xml)).
 
 **Whether CMIP7 actually resolves it remains an open question** — the first round of CMIP7-vs-observations evaluation papers for the Greater Horn won't appear until 2027+. Until then, the existing paradox caveat continues to apply, and proposal authors working on East African long rains should frame adaptation logic around observed drying, not modelled wetting.
 
@@ -123,8 +123,8 @@ For proposal authors and CGIAR partners writing in 2026 and 2027:
 
 - **Frame on CMIP6.** It remains the citable, defensible, downscaled-and-evaluated corpus. NEX-GDDP-CMIP6 v2.0, CHELSA-CMIP6, ISIMIP3b all stay in service.
 - **Add a "CMIP7 readiness clause" to multi-year proposals.** Note that the team will adopt CMIP7-derived ISIMIP / NEX-GDDP / CHELSA products as they publish, with re-baselining planned for the AR7 cycle (2028+).
-- **For Recent Changes views: continue the 1991–2020 WMO baseline.** See [Baselines and reference periods](/wikis/aaa-atlas/baselines/). CMIP7 doesn't change observational baselines.
-- **For Future Projections views: continue the 1995–2014 CMIP6 reference period.** CMIP7 will likely use a similar but not identical baseline once products land; the [baselines page](/wikis/aaa-atlas/baselines/) will be updated when that's confirmed.
+- **For Recent Changes views: continue the 1991–2020 WMO baseline.** See [Baselines and reference periods](/cdh-wikis/aaa-atlas/baselines/). CMIP7 doesn't change observational baselines.
+- **For Future Projections views: continue the 1995–2014 CMIP6 reference period.** CMIP7 will likely use a similar but not identical baseline once products land; the [baselines page](/cdh-wikis/aaa-atlas/baselines/) will be updated when that's confirmed.
 - **Watch [ISIMIP4](https://www.isimip.org/) first.** It has the firmest timeline and the strongest sector specificity (crops, water, health) most relevant to CGIAR partner work.
 - **Don't commit specifically to NEX-GDDP-CMIP7 in roadmaps.** No public release timeline exists; assume NEX-GDDP-CMIP6 v2 is the terminal NASA downscaling vintage for at least 18 months. For continuity-critical work, evaluate CIL-GDPCIR and CHELSA-CMIP7 as backup paths.
 
@@ -134,11 +134,11 @@ If your work requires partner-government-facing certainty over a multi-year hori
 
 This page is the forward-look part of the wiki. The companion pages cover:
 
-- The current methodology being applied: [African CMIP6 Ensembling](/wikis/aaa-atlas/african-cmip6-ensembling/)
-- The defaults CGIAR centres should harmonise around today: [Recommendations for CGIAR](/wikis/aaa-atlas/cgiar-recommendations/)
-- The dataset landscape your team will need to navigate during the transition: [Dataset landscape](/wikis/aaa-atlas/dataset-landscape/)
-- The regional evaluation literature that will be re-done for CMIP7: [Regional evaluation](/wikis/aaa-atlas/regional-evaluation/)
-- The paradox case that CMIP7 may help resolve: [East African Paradox](/wikis/aaa-atlas/east-african-paradox/)
+- The current methodology being applied: [African CMIP6 Ensembling](/cdh-wikis/aaa-atlas/african-cmip6-ensembling/)
+- The defaults CGIAR centres should harmonise around today: [Recommendations for CGIAR](/cdh-wikis/aaa-atlas/cgiar-recommendations/)
+- The dataset landscape your team will need to navigate during the transition: [Dataset landscape](/cdh-wikis/aaa-atlas/dataset-landscape/)
+- The regional evaluation literature that will be re-done for CMIP7: [Regional evaluation](/cdh-wikis/aaa-atlas/regional-evaluation/)
+- The paradox case that CMIP7 may help resolve: [East African Paradox](/cdh-wikis/aaa-atlas/east-african-paradox/)
 
 When CMIP7-derived African projections become viable, the CGIAR Climate Data Hub will update the underlying methodology pages and add a CMIP7 sub-ensemble alongside the existing CMIP6 view — not as a flag-day cutover. Old versions of this page are retained for citation stability.
 

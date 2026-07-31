@@ -18,7 +18,7 @@ A good wiki on this site:
 Each wiki is a single markdown file under `src/content/docs/<area>/<slug>.md`.
 
 - `<area>` is the institution or programme — e.g. `aaa-atlas`, `aiccra`, `excel-foresight`. If the new wiki doesn't fit any of the existing areas, create a new folder for it, with an `index.md` page explaining the area.
-- `<slug>` is the URL part — lowercase, hyphenated, descriptive. The page URL is `https://cgiar-climate-data-hub.github.io/wikis/<area>/<slug>/`.
+- `<slug>` is the URL part — lowercase, hyphenated, descriptive. The page URL is `https://cgiar-climate-data-hub.github.io/cdh-wikis/<area>/<slug>/`.
 
 Figures go in `src/content/docs/<area>/figures/`. Reference them from the markdown with relative paths (`./figures/your-figure.png`). Astro's image pipeline handles size, format, and lazy loading.
 

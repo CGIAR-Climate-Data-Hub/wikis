@@ -60,6 +60,6 @@ Every contributor's name and institution appears with their contribution. The wi
 
 ## Why this section matters
 
-The Atlas's default model choices are defensible against the global peer-reviewed evaluation literature (see [Regional evaluation](/wikis/aaa-atlas/regional-evaluation/)). But "defensible against global literature" is not the same as "everyone agrees with us." Where a regional centre has internal evidence of better-performing models for their specific use case, this is the section that surfaces that.
+The Atlas's default model choices are defensible against the global peer-reviewed evaluation literature (see [Regional evaluation](/cdh-wikis/aaa-atlas/regional-evaluation/)). But "defensible against global literature" is not the same as "everyone agrees with us." Where a regional centre has internal evidence of better-performing models for their specific use case, this is the section that surfaces that.
 
 We're not asking partners to publish new research here — just to share their operational perspective. Even short contributions add a layer of regional credibility that no academic paper can.

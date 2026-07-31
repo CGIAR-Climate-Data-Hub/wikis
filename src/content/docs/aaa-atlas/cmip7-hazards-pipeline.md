@@ -20,14 +20,14 @@ tableOfContents:
 ---
 
 :::caution[Draft — content stub]
-This page is a scaffold for the CGIAR-led CMIP7 hazards pipeline. Lead authors: **Pete Steward, Harold Achicanoy, Brayden Youngberg**. This page describes the downstream half of the CGIAR Climate Action CMIP7 production effort; the upstream half is the [CMIP7 downscaling infrastructure page](/wikis/aaa-atlas/cmip7-downscaling-infrastructure/). The two pipelines share compute infrastructure.
+This page is a scaffold for the CGIAR-led CMIP7 hazards pipeline. Lead authors: **Pete Steward, Harold Achicanoy, Brayden Youngberg**. This page describes the downstream half of the CGIAR Climate Action CMIP7 production effort; the upstream half is the [CMIP7 downscaling infrastructure page](/cdh-wikis/aaa-atlas/cmip7-downscaling-infrastructure/). The two pipelines share compute infrastructure.
 :::
 
 ## What this page covers
 
-The methodology and pipeline that turns the [CGIAR-led CMIP7 downscaled and bias-corrected dataset](/wikis/aaa-atlas/cmip7-downscaling-infrastructure/) into **hazard indicators** — the analysis-ready variables that feed the [AAA Adaptation Atlas](https://adaptationatlas.cgiar.org/), the [Build a Climate Rationale notebook](https://adaptationatlas.cgiar.org/), and partner-facing climate-rationale tools across CGIAR Climate Action.
+The methodology and pipeline that turns the [CGIAR-led CMIP7 downscaled and bias-corrected dataset](/cdh-wikis/aaa-atlas/cmip7-downscaling-infrastructure/) into **hazard indicators** — the analysis-ready variables that feed the [AAA Adaptation Atlas](https://adaptationatlas.cgiar.org/), the [Build a Climate Rationale notebook](https://adaptationatlas.cgiar.org/), and partner-facing climate-rationale tools across CGIAR Climate Action.
 
-For the partner-facing transition overview (what CMIP7 is, when it lands, what proposal authors should do today), see [What's next — CMIP7 and CORDEX-Africa](/wikis/aaa-atlas/future-projections/).
+For the partner-facing transition overview (what CMIP7 is, when it lands, what proposal authors should do today), see [What's next — CMIP7 and CORDEX-Africa](/cdh-wikis/aaa-atlas/future-projections/).
 
 ## Scope
 
@@ -66,7 +66,7 @@ This pipeline replaces the existing CMIP6-era hazards processing in the `hazards
 
 *To be drafted by Pete / Harold / Brayden in coordination with Carlos Navarros.*
 
-The hazards pipeline runs on the **same compute and storage infrastructure** as the [downscaling pipeline](/wikis/aaa-atlas/cmip7-downscaling-infrastructure/). Decisions taken upstream (cloud vs HPC, workflow orchestrator, storage format, region) propagate downstream.
+The hazards pipeline runs on the **same compute and storage infrastructure** as the [downscaling pipeline](/cdh-wikis/aaa-atlas/cmip7-downscaling-infrastructure/). Decisions taken upstream (cloud vs HPC, workflow orchestrator, storage format, region) propagate downstream.
 
 *Suggested design considerations:*
 
@@ -105,7 +105,7 @@ The hazards pipeline runs on the **same compute and storage infrastructure** as 
 
 ## Timeline and dependencies
 
-*To be drafted. Key dependency: the [downscaling pipeline](/wikis/aaa-atlas/cmip7-downscaling-infrastructure/) must publish before the hazards pipeline can ingest.*
+*To be drafted. Key dependency: the [downscaling pipeline](/cdh-wikis/aaa-atlas/cmip7-downscaling-infrastructure/) must publish before the hazards pipeline can ingest.*
 
 | Quarter | Milestone | Dependency |
 |---|---|---|
@@ -126,8 +126,8 @@ The hazards pipeline runs on the **same compute and storage infrastructure** as 
 
 ## Further reading
 
-- [CMIP7 downscaling infrastructure](/wikis/aaa-atlas/cmip7-downscaling-infrastructure/) — the upstream companion page (Carlos Navarros).
-- [What's next — CMIP7 and CORDEX-Africa](/wikis/aaa-atlas/future-projections/) — the partner-facing transition overview.
-- [Recommendations for CGIAR](/wikis/aaa-atlas/cgiar-recommendations/) — current operational defaults that this pipeline will eventually update.
-- [African CMIP6 Ensembling](/wikis/aaa-atlas/african-cmip6-ensembling/) — the CMIP6 methodology that the existing hazards pipeline runs against.
-- [research_anchors_cmip7.md](https://github.com/CGIAR-Climate-Data-Hub/wikis/blob/main/playbook/cmip6-wiki/research_anchors_cmip7.md) — the full CMIP7 knowledge base behind this work.
+- [CMIP7 downscaling infrastructure](/cdh-wikis/aaa-atlas/cmip7-downscaling-infrastructure/) — the upstream companion page (Carlos Navarros).
+- [What's next — CMIP7 and CORDEX-Africa](/cdh-wikis/aaa-atlas/future-projections/) — the partner-facing transition overview.
+- [Recommendations for CGIAR](/cdh-wikis/aaa-atlas/cgiar-recommendations/) — current operational defaults that this pipeline will eventually update.
+- [African CMIP6 Ensembling](/cdh-wikis/aaa-atlas/african-cmip6-ensembling/) — the CMIP6 methodology that the existing hazards pipeline runs against.
+- [research_anchors_cmip7.md](https://github.com/CGIAR-Climate-Data-Hub/cdh-wikis/blob/main/playbook/cmip6-wiki/research_anchors_cmip7.md) — the full CMIP7 knowledge base behind this work.
